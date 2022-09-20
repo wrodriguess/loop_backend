@@ -47,7 +47,5 @@ class Vehicle
         $locale = $res['city'] . " - " . $res['state'];
         $this->locale = $locale ?? null;
         $this->id_car_yard = $res['id_car_yard'] ?? null;
-
-        // FALTA RETORNAR OS DADOS DO INNER JOIN
     }
 }
